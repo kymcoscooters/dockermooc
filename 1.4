@@ -1,0 +1,18 @@
+$ docker run -d devopsdockeruh/exec_bash_exercise
+3be059b411f33b271867e8437e441ca03cd61c377c062d9f8785c4bdd35c2ac5
+
+$ docker exec -it 3b bash
+root@3be059b411f3:/usr/app# tail -f ./logs.txt 
+Tue, 05 May 2020 18:23:10 GMT
+Tue, 05 May 2020 18:23:13 GMT
+Secret message is:
+"Docker is easy"
+Tue, 05 May 2020 18:23:19 GMT
+Tue, 05 May 2020 18:23:22 GMT
+Tue, 05 May 2020 18:23:25 GMT
+Tue, 05 May 2020 18:23:28 GMT
+Secret message is:
+"Docker is easy"
+Tue, 05 May 2020 18:23:34 GMT
+Tue, 05 May 2020 18:23:37 GMT
+
